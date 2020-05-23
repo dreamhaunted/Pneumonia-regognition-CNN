@@ -6,7 +6,6 @@ class Net(nn.Module):
 
     def __init__(self):
         super(Net, self).__init__()
-
         self.conv1 = nn.Conv2d(1, 48, 11)
         self.conv2 = nn.Conv2d(48, 96, 5)
         self.conv3 = nn.Conv2d(96, 144, 5)
